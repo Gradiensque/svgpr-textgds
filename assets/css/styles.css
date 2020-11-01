@@ -16,6 +16,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     animation: fill 0.5s ease forwards 3.2s;
+    
 }
 
 #logo path:nth-child(1){
@@ -83,6 +84,7 @@ body{
     stroke-dashoffset: 333;
     animation: line-anim 2s ease forwards 1.8s;
 }
+
 
 @keyframes line-anim{
     to {
